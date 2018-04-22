@@ -73,6 +73,7 @@ def is_palidrome_reverse(s):
 # Variation 2
 def is_palidrome_two_pointer(s):
 	s = remove_punctuation(s)
+	
 	for i in range(0 : len(s)/2):
 		if (s[i] != s[len(s) - i - 1]):
 			return False
@@ -87,6 +88,7 @@ def is_palidrome_two_pointer(s):
 def is_palindrome_stack(s):
 	stack = []
 	s = remove_punctuation(s)
+	
 	for i in range(len(s)//2, len(s)):
 		stack.append(s[i])
 	for i in range(0, len(s)//2):
