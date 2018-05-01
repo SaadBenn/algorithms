@@ -14,7 +14,6 @@ Test Cases:
 * Circular linked list general case
 """
 class LinkedList:
-
 	def __init__(self):
 		self.root = None
 
@@ -50,8 +49,7 @@ class LinkedList:
 				return None
 		return slow	
 
-class Node:
-	
+class Node:	
 	def __init__(self, _value):
 		self.value = _value
 		self.next = None							 
