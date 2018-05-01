@@ -56,7 +56,7 @@ class Node:
 		self.value = _value
 		self.next = None							 
 
-
+# *******************************************************
 linked_list = LinkedList()
 linked_list.push(10)
 linked_list.push(4)
